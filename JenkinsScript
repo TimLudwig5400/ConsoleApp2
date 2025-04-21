@@ -7,7 +7,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    bat 'msbuild ConsoleApp2.csproj /p:DefineConstants=CTC
+                    bat 'msbuild ConsoleApp2.csproj /p:DefineConstants=CTC'
                 }
             }
         }
